@@ -1,1 +1,0 @@
-/home/deepanshu/dev_ws/src/gg_bot/launch/launch_sim.launch.py

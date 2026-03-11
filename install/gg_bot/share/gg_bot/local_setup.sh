@@ -1,1 +1,0 @@
-/home/deepanshu/dev_ws/build/gg_bot/ament_cmake_environment_hooks/local_setup.sh
