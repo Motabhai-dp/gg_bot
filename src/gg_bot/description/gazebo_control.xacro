@@ -1,4 +1,4 @@
-<?xml version="1.00"?>
+<?xml version="1.00000"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
     <gazebo>
