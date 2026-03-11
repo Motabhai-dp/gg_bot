@@ -1,9 +1,0 @@
-/home/deepanshu/dev_ws/build/gg_bot/CMakeFiles/uninstall.dir
-/home/deepanshu/dev_ws/build/gg_bot/CMakeFiles/gg_bot_uninstall.dir
-/home/deepanshu/dev_ws/build/gg_bot/CMakeFiles/test.dir
-/home/deepanshu/dev_ws/build/gg_bot/CMakeFiles/edit_cache.dir
-/home/deepanshu/dev_ws/build/gg_bot/CMakeFiles/rebuild_cache.dir
-/home/deepanshu/dev_ws/build/gg_bot/CMakeFiles/list_install_components.dir
-/home/deepanshu/dev_ws/build/gg_bot/CMakeFiles/install.dir
-/home/deepanshu/dev_ws/build/gg_bot/CMakeFiles/install/local.dir
-/home/deepanshu/dev_ws/build/gg_bot/CMakeFiles/install/strip.dir
