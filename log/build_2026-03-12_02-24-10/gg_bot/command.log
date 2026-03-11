@@ -1,0 +1,6 @@
+Invoking command in '/home/deepanshu/dev_ws/build/gg_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/deepanshu/dev_ws/src/gg_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/deepanshu/dev_ws/install/gg_bot
+Invoked command in '/home/deepanshu/dev_ws/build/gg_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/deepanshu/dev_ws/src/gg_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/deepanshu/dev_ws/install/gg_bot
+Invoking command in '/home/deepanshu/dev_ws/build/gg_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/deepanshu/dev_ws/build/gg_bot -- -j16 -l16
+Invoked command in '/home/deepanshu/dev_ws/build/gg_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/deepanshu/dev_ws/build/gg_bot -- -j16 -l16
+Invoking command in '/home/deepanshu/dev_ws/build/gg_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/deepanshu/dev_ws/build/gg_bot
+Invoked command in '/home/deepanshu/dev_ws/build/gg_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/deepanshu/dev_ws/build/gg_bot
