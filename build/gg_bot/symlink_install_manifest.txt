@@ -11,6 +11,7 @@
 /home/deepanshu/dev_ws/install/gg_bot/share/gg_bot/description/robot_core.xacro
 /home/deepanshu/dev_ws/install/gg_bot/share/gg_bot/description/ros2_control.xacro
 /home/deepanshu/dev_ws/install/gg_bot/share/gg_bot/launch/camera_launch.py
+/home/deepanshu/dev_ws/install/gg_bot/share/gg_bot/launch/launch_robot.launch.py
 /home/deepanshu/dev_ws/install/gg_bot/share/gg_bot/launch/launch_sim.launch.py
 /home/deepanshu/dev_ws/install/gg_bot/share/gg_bot/launch/rplidar.launch.py
 /home/deepanshu/dev_ws/install/gg_bot/share/gg_bot/launch/rsp.launch.py
