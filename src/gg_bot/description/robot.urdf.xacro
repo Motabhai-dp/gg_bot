@@ -12,5 +12,8 @@
     <xacro:include filename="depth_camera.xacro" />
 
     <xacro:include filename="ros2_control.xacro" />
+
+    <xacro:arg name="sim_mode" default="true"/>
+
     
 </robot>
