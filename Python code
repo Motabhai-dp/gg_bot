@@ -1,0 +1,97 @@
+BFS------------------------------>
+
+from collections import deque
+
+def bfs(graph, start):
+    visited = set()
+    queue = deque([start])
+    visited.add(start)
+
+    while queue:
+        node = queue.popleft()
+        print(node, end=" ")
+
+        for neighbor in graph[node]:
+            if neighbor not in visited:
+                visited.add(neighbor)
+                queue.append(neighbor)
+
+graph = {
+    0: [1, 2],
+    1: [0, 3],
+    2: [0, 4],
+    3: [1],
+    4: [2]
+}
+
+bfs(graph, 0)
+
+
+
+DFS----------------------->
+
+graph = {
+    'A': ['B', 'C'],
+    'B': ['D', 'E'],
+    'C': ['F'],
+    'D': [],
+    'E': [],
+    'F': []
+}
+
+def dfs(node, visited):
+    if node not in visited:
+        print(node, end=" ")
+        visited.add(node)
+
+        for neighbor in graph[node]:
+            dfs(neighbor, visited)
+
+dfs('A', set())
+
+
+
+
+MAZE------------------------->
+maze = [
+    [0, 1, 0, 0, 0],
+    [0, 1, 0, 1, 0],
+    [0, 0, 0, 1, 0],
+    [1, 1, 0, 0, 0],
+    [0, 0, 0, 1, 0]
+]
+
+rows, cols = len(maze), len(maze[0])
+visited = set()
+path = []
+
+def dfs(r, c):
+    # Check boundaries and walls
+    if (r < 0 or r >= rows or
+        c < 0 or c >= cols or
+        maze[r][c] == 1 or (r, c) in visited):
+        return False
+
+    visited.add((r, c))
+    path.append((r, c))
+
+    # Destination reached
+    if (r, c) == (4, 4):
+        return True
+
+    # Explore down, right, up, left
+    directions = [(1, 0), (0, 1), (-1, 0), (0, -1)]
+
+    for dr, dc in directions:
+        if dfs(r + dr, c + dc):
+            return True
+
+    # Backtrack if no path found
+    path.pop()
+    return False
+
+if dfs(0, 0):
+    print("Path found:")
+    print(path)
+else:
+    print("No path exists")
